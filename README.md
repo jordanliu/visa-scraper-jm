@@ -12,16 +12,16 @@ Visa requirements for Jamaican Citizens Web Scraper using BeautifulSoup. <br> Wi
     ```shell
     cd visa-scraper-jm/
     
-    py -m venv env
+    python3 -m venv env
     
     .\env\Scripts\activate
     
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 1.  **Run script**
     ```shell
-    python .\wikiscraper.py
+    python3 .\wikiscraper.py
     ```
     Script outputs a 'output.csv' file containing scraped data.
 
